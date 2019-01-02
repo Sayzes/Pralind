@@ -1,4 +1,4 @@
-﻿Log file open, 01/02/19 07:35:12
+﻿Log file open, 01/02/19 20:13:19
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Pralind
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.322681
+LogStats: Stats thread started at 0.320852
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -97,7 +97,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.127s to configure plugins.
+LogStreaming: Display: Took  1.737s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -130,7 +130,7 @@ LogInit: Compiled (64-bit): Nov 30 2018 04:13:25
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
-LogInit: Command Line:  -EpicPortal -epicusername=xXNKMXx -epicuserid=41351841736b4337b47b91379774d499 -epiclocale=en-US
+LogInit: Command Line: 
 LogInit: Base Directory: D:/UE/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
@@ -156,957 +156,440 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.024s to delete old logs.
+LogStreaming: Display: Took  0.469s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.01.02-06.35.12:498][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.01.02-06.35.12:498][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.01.02-06.35.12:498][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
-[2019.01.02-06.35.12:498][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.01.02-06.35.12:498][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
-[2019.01.02-06.35.12:498][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
-[2019.01.02-06.35.12:498][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.01.02-06.35.12:498][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.01.02-06.35.12:499][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
-[2019.01.02-06.35.12:499][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
-[2019.01.02-06.35.12:507][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.01.02-06.35.12:507][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.01.02-06.35.12:508][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.01.02-06.35.12:509][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.01.02-06.35.12:509][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.01.02-06.35.12:509][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.01.02-06.35.12:509][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.01.02-06.35.12:509][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.01.02-06.35.12:509][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.01.02-06.35.12:509][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.01.02-06.35.12:509][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:509][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.01.02-06.35.12:509][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.01.02-06.35.12:509][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.02-06.35.12:509][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.02-06.35.12:524][  0]LogHAL: Display: Platform has ~ 16 GB [17155100672 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.02-06.35.12:524][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.01.02-06.35.12:524][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.02-06.35.12:524][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:524][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.01.02-06.35.12:525][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.01.02-06.35.12:526][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.01.02-06.35.12:526][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
-[2019.01.02-06.35.12:527][  0]LogInit: Computer: DESKTOP-36NQ0HB
-[2019.01.02-06.35.12:527][  0]LogInit: User: nkm
-[2019.01.02-06.35.12:527][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.01.02-06.35.12:527][  0]LogInit: High frequency timer resolution =3.526095 MHz
-[2019.01.02-06.35.12:527][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.01.02-06.35.12:527][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.02-06.35.12:527][  0]LogMemory: Process Physical Memory: 103.32 MB used, 103.32 MB peak
-[2019.01.02-06.35.12:527][  0]LogMemory: Process Virtual Memory: 91.64 MB used, 91.64 MB peak
-[2019.01.02-06.35.12:527][  0]LogMemory: Physical Memory: 6817.43 MB used,  9542.95 MB free, 16360.38 MB total
-[2019.01.02-06.35.12:527][  0]LogMemory: Virtual Memory: 4639.35 MB used,  134213088.00 MB free, 134217728.00 MB total
-[2019.01.02-06.35.12:560][  0]LogInit: Using OS detected language (en-US).
-[2019.01.02-06.35.12:560][  0]LogInit: Using OS detected locale (da-DK).
-[2019.01.02-06.35.12:561][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.02-06.35.13:127][  0]LogStreaming: Display: Took  0.568s to InitEngineTextLocalization.
-[2019.01.02-06.35.13:127][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.02-06.35.13:184][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.02-06.35.13:184][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.02-06.35.13:509][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.02-06.35.13:509][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.02-06.35.13:598][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2019.01.02-06.35.13:598][  0]LogD3D11RHI:       4018/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.01.02-06.35.13:601][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.02-06.35.13:601][  0]LogD3D11RHI:       0/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.02-06.35.13:601][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.02-06.35.13:611][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.02-06.35.13:611][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.02-06.35.13:612][  0]LogWindows: EnumDisplayDevices:
-[2019.01.02-06.35.13:612][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2019.01.02-06.35.13:612][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
-[2019.01.02-06.35.13:613][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.01.02-06.35.13:614][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.01.02-06.35.13:614][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.01.02-06.35.13:614][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2019.01.02-06.35.13:614][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
-[2019.01.02-06.35.13:614][  0]LogD3D11RHI:      Driver Date: 3-23-2018
-[2019.01.02-06.35.13:614][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2019.01.02-06.35.13:679][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.02-06.35.13:700][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.02-06.35.14:237][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.02-06.35.14:253][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.02-06.35.14:271][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.02-06.35.14:287][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.02-06.35.14:305][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.02-06.35.14:320][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.02-06.35.14:337][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.02-06.35.14:353][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.02-06.35.14:361][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.02-06.35.14:465][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:465][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:465][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:465][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:465][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:465][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:465][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.02-06.35.14:469][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.02-06.35.14:545][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.02-06.35.14:545][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.02-06.35.14:581][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.02-06.35.14:581][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.02-06.35.14:598][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.02-06.35.14:617][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.02-06.35.14:636][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.02-06.35.14:653][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.02-06.35.14:717][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.02-06.35.14:717][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.02-06.35.14:717][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.02-06.35.14:790][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (C:/Users/nkm/Documents/GitHub/Pralind/Intermediate/Shaders/WorkingDirectory/14496/).
-[2019.01.02-06.35.14:790][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nkm/AppData/Local/Temp/UnrealShaderWorkingDir/56377CEA4C85CFD1587A0084F04294E8/'.
-[2019.01.02-06.35.14:793][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.02-06.35.14:793][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.02-06.35.14:793][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.02-06.35.15:499][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.02-06.35.15:602][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/nkm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.01.02-06.35.15:602][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nkm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.01.02-06.35.15:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/nkm/Documents/GitHub/Pralind/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.02-06.35.15:602][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.02-06.35.15:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/nkm/Documents/GitHub/Pralind/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.02-06.35.15:602][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.02-06.35.15:621][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.02-06.35.15:621][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.02-06.35.15:621][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.01.02-06.35.15:634][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.02-06.35.15:634][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.02-06.35.15:634][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.02-06.35.15:669][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.02-06.35.15:670][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.02-06.35.15:671][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.02-06.35.15:788][  0]LogAssetRegistry: FAssetRegistry took 0.0381 seconds to start up
-[2019.01.02-06.35.16:305][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.02-06.35.16:397][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.02-06.35.16:402][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.02-06.35.16:402][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.02-06.35.16:402][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.02-06.35.16:402][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.02-06.35.16:535][  0]LogNetVersion: Pralind 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 393044096)
-[2019.01.02-06.35.17:240][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.143883 seconds
-[2019.01.02-06.35.17:247][  0]LogUObjectArray: 39784 objects as part of root set at end of initial load.
-[2019.01.02-06.35.17:247][  0]LogUObjectAllocator: 6925456 out of 0 bytes used by permanent object pool.
-[2019.01.02-06.35.17:247][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.02-06.35.18:407][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.02-06.35.18:421][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.02-06.35.19:363][  0]SourceControl: Source control is disabled
-[2019.01.02-06.35.19:363][  0]SourceControl: Source control is disabled
-[2019.01.02-06.35.19:365][  0]SourceControl: Source control is disabled
-[2019.01.02-06.35.19:367][  0]SourceControl: Source control is disabled
-[2019.01.02-06.35.19:564][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.02-06.35.19:834][  0]LogOcInput: OculusInput pre-init called
-[2019.01.02-06.35.19:987][  0]LogEngine: Initializing Engine...
-[2019.01.02-06.35.19:988][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.02-06.35.19:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.02-06.35.19:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.02-06.35.19:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.02-06.35.19:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.02-06.35.20:310][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.02-06.35.20:325][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.02-06.35.20:390][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.02-06.35.20:420][  0]LogInit: FAudioDevice initialized.
-[2019.01.02-06.35.20:420][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.02-06.35.20:583][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/nkm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.01.02-06.35.20:610][  0]LogInit: Texture streaming: Enabled
-[2019.01.02-06.35.20:628][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.02-06.35.20:646][  0]LogInit: Transaction tracking system initialized
-[2019.01.02-06.35.20:671][  0]BlueprintLog: New page: Editor Load
-[2019.01.02-06.35.20:760][  0]LocalizationService: Localization service is disabled
-[2019.01.02-06.35.21:349][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nkm/Documents/GitHub/Pralind/Content/' took 0.02s
-[2019.01.02-06.35.21:349][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.02-06.35.21:350][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.02-06.35.21:350][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.02-06.35.21:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.02-06.35.21:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.02-06.35.21:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.02-06.35.21:350][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.02-06.35.21:510][  0]SourceControl: Source control is disabled
-[2019.01.02-06.35.21:510][  0]Cmd: MAP LOAD FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Maps/Menu_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.02-06.35.21:511][  0]LightingResults: New page: Lighting Build
-[2019.01.02-06.35.21:514][  0]MapCheck: New page: Map Check
-[2019.01.02-06.35.21:514][  0]LightingResults: New page: Lighting Build
-[2019.01.02-06.35.21:847][  0]LogAIModule: Creating AISystem for world Menu_Map
-[2019.01.02-06.35.21:848][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.02-06.35.21:876][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.02-06.35.21:876][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,227ms to complete.
-[2019.01.02-06.35.21:876][  0]LogFileHelpers: Loading map 'Menu_Map' took 0.366
-[2019.01.02-06.35.21:994][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.02-06.35.22:005][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.02-06.35.22:016][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.02-06.35.22:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.02-06.35.22:034][  0]LogCollectionManager: Loaded 0 collections in 0.001878 seconds
-[2019.01.02-06.35.22:051][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/Collections/' took 0.01s
-[2019.01.02-06.35.22:051][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Developers/nkm/Collections/' took 0.00s
-[2019.01.02-06.35.22:051][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Collections/' took 0.00s
-[2019.01.02-06.35.22:051][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.01.02-06.35.22:065][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2677 classes and 630 folders.
-[2019.01.02-06.35.22:071][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.02-06.35.22:073][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:074][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:075][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:076][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:077][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:077][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:078][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:079][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:079][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:080][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:081][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:082][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:083][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:083][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:084][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:085][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:086][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:087][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:088][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:089][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:089][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:090][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:091][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.02-06.35.22:146][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.02-06.35.22:151][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.01.02-06.35.22:173][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.02-06.35.22:177][  0]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.02-06.35.22:189][  0]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.02-06.35.22:302][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.01.02-06.35.22:449][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.01.02-06.35.22:449][  0]LogLoad: (Engine Initialization) Total time: 12.51 seconds
-[2019.01.02-06.35.22:449][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.02-06.35.22:459][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.02-06.35.22:530][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.02-06.35.22:572][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.02-06.35.22:678][  2]LogAssetRegistry: Asset discovery search completed in 6.9128 seconds
-[2019.01.02-06.35.22:681][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.02-06.35.22:681][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
-[2019.01.02-06.35.25:022][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.02-06.35.28:155][643]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.02-06.35.28:166][643]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Menu_Map.Menu_Map
-[2019.01.02-06.35.28:191][643]Cmd: MAP LOAD FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Maps/Menu_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.02-06.35.28:191][643]LightingResults: New page: Lighting Build
-[2019.01.02-06.35.28:192][643]LoadErrors: New page: Loading map: Menu_Map.umap
-[2019.01.02-06.35.28:193][643]MapCheck: New page: Map Check
-[2019.01.02-06.35.28:193][643]LightingResults: New page: Lighting Build
-[2019.01.02-06.35.28:232][643]LogAIModule: Creating AISystem for world Menu_Map
-[2019.01.02-06.35.28:233][643]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.02-06.35.28:278][643]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.02-06.35.28:278][643]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,17ms to complete.
-[2019.01.02-06.35.28:279][643]LogFileHelpers: Loading map 'Menu_Map' took 0.089
-[2019.01.02-06.35.30:251][871]LogTemp: Repeating last play command: Standalone Game
-[2019.01.02-06.39.21:806][269]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
-[2019.01.02-06.39.22:101][269]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.01.02-06.39.22:810][269]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.01.02-06.39.22:840][269]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
-[2019.01.02-06.39.23:562][269]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 117 classes and 0 folders.
-[2019.01.02-06.39.25:071][269]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2019.01.02-06.39.25:776][269]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.01.02-06.39.25:856][269]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
-[2019.01.02-06.40.16:113][503]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.01.02-06.41.47:601][170]LogSlate: Took 0.006161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.01.02-06.42.04:440][316]BlueprintLog: New page: Compile ThirdPerson_AnimBP
-[2019.01.02-06.42.04:507][316]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] Transform (Modify) Bone - Bone: head  - No components to modify selected.  Either Rotation, Translation, or Scale should be set to something other than Ignore
-[2019.01.02-06.42.04:770][316]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] [0414,83] Compile of ThirdPerson_AnimBP successful, but with 1 Warning(s) [in 329 ms] (/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
-[2019.01.02-06.42.05:225][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
-[2019.01.02-06.42.05:323][340]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/ThirdPerson_AnimBPDCEA73C94671D4D90812E68F674CFDD3.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
-[2019.01.02-06.42.45:212][485]BlueprintLog: New page: Compile ThirdPerson_AnimBP
-[2019.01.02-06.42.45:861][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
-[2019.01.02-06.42.45:959][508]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/ThirdPerson_AnimBPB578EDE041D197A9205692A903D7FC74.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
-[2019.01.02-06.43.03:937][674]LogSlate: Window 'ThirdPerson_AnimBP' being destroyed
-[2019.01.02-06.43.06:640][957]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/PlayerChar.PlayerChar
-[2019.01.02-06.44.23:317][207]BlueprintLog: New page: Compile PlayerChar
-[2019.01.02-06.44.23:995][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset" SILENT=true
-[2019.01.02-06.44.24:059][241]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/PlayerChar8DF366FF459F25352E39879D008EB6CC.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset'
-[2019.01.02-06.45.02:492][ 58]LogEditorTransaction: Undo Delete current selection
-[2019.01.02-06.45.02:643][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2019.01.02-06.46.43:918][896]BlueprintLog: New page: Compile PlayerChar
-[2019.01.02-06.46.59:824][548]LogTemp: Repeating last play command: Standalone Game
-[2019.01.02-06.47.01:786][548]LogSlate: Window 'Save Content' being destroyed
-[2019.01.02-06.47.01:826][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset" SILENT=true
-[2019.01.02-06.47.01:895][548]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/PlayerChar709F46544A99DA47A15F93967753EF33.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset'
-[2019.01.02-06.47.27:992][257]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel.Menu_Map' with GeneratedClass '/Game/Maps/Menu_Map.Menu_Map_C' with ClassGeneratedBy '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel.Menu_Map'
-[2019.01.02-06.47.27:992][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.02-06.47.27:993][257]PIE: New page: PIE session: Menu_Map (02/01/2019 08.47.27)
-[2019.01.02-06.47.27:994][257]LogOnline: Warning: STEAM: Steam API disabled!
-[2019.01.02-06.47.27:994][257]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2019.01.02-06.47.28:006][257]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_Menu_Map
-[2019.01.02-06.47.28:008][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001548s)
-[2019.01.02-06.47.28:009][257]LogAIModule: Creating AISystem for world Menu_Map
-[2019.01.02-06.47.28:009][257]LogPlayLevel: PIE: World Init took: (0.000691s)
-[2019.01.02-06.47.28:009][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu_Map.Menu_Map to /Game/Maps/UEDPIE_1_Menu_Map.Menu_Map (0.002648s)
-[2019.01.02-06.47.28:091][257]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.02-06.47.28:101][257]LogInit: FAudioDevice initialized.
-[2019.01.02-06.47.28:156][257]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.01.02-06.47.28:157][257]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Menu_Map.Menu_Map up for play (max tick rate 0) at 2019.01.02-07.47.28
-[2019.01.02-06.47.28:157][257]LogWorld: Bringing up level for play took: 0.000605
-[2019.01.02-06.47.28:180][257]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2019.01.02-06.47.28:182][257]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.01.02-06.47.28:182][257]LogTemp: Display: ParseSettings for IpNetDriver_0
-[2019.01.02-06.47.28:182][257]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.01.02-06.47.28:182][257]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2019.01.02-06.47.28:182][257]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2019.01.02-06.47.28:183][257]LogInit: WinSock: Socket queue 131072 / 131072
-[2019.01.02-06.47.28:183][257]LogInit: WinSock: I am DESKTOP-36NQ0HB (192.168.0.43:0)
-[2019.01.02-06.47.28:183][257]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.01.02-06.47.28:184][257]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
-[2019.01.02-06.47.28:186][257]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_Menu_Map 0,016
-[2019.01.02-06.47.28:194][257]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.02-06.47.28:202][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.02-06.47.28:235][257]LogNet: Browse: 127.0.0.1:17777//Game/Maps/Menu_Map
-[2019.01.02-06.47.28:235][257]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.01.02-06.47.28:235][257]LogTemp: Display: ParseSettings for IpNetDriver_1
-[2019.01.02-06.47.28:235][257]LogTemp: Display: ParseSettings for PendingNetDriver
-[2019.01.02-06.47.28:235][257]LogInit: WinSock: Socket queue 32768 / 32768
-[2019.01.02-06.47.28:236][257]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.01.02-06.47.28:236][257]LogNet: Game client on port 17777, rate 10000
-[2019.01.02-06.47.28:239][257]PIE: Play in editor start time for /Game/Maps/Menu_Map 0,068
-[2019.01.02-06.47.28:244][257]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel.Menu_Map' with GeneratedClass '/Game/Maps/Menu_Map.Menu_Map_C' with ClassGeneratedBy '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel.Menu_Map'
-[2019.01.02-06.47.28:244][257]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55980
-[2019.01.02-06.47.28:245][257]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 106048001202043218110165143163187074087100226119042240062182
-[2019.01.02-06.47.28:252][257]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 106048001202043218110165143163187074087100226119042240062182
-[2019.01.02-06.47.28:307][258]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55980
-[2019.01.02-06.47.28:308][258]LogHandshake: SendChallengeAck. InCookie: 106048001202043218110165143163187074087100226119042240062182
-[2019.01.02-06.47.28:308][258]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55980
-[2019.01.02-06.47.28:308][258]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.01.02-06.47.28:309][258]LogNet: NotifyAcceptedConnection: Name: Menu_Map, TimeStamp: 01/02/19 07:47:28, [UNetConnection] RemoteAddr: 127.0.0.1:55980, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.01.02-06.47.28:309][258]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55980, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.01.02-06.47.28:310][258]LogNetVersion: Pralind 1.0.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3692811673)
-[2019.01.02-06.47.28:310][258]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.01.02-06.47.28:321][259]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_Menu_Map.Menu_Map: Accepted
-[2019.01.02-06.47.28:321][259]LogNet: Remote platform little endian=1
-[2019.01.02-06.47.28:322][259]LogNet: This platform little endian=1
-[2019.01.02-06.47.28:342][260]LogNet: Login request: /Game/Maps/Menu_Map?Name=DESKTOP-36NQ0HB-318D484D44D5286823A02493A1A95196 userId: NULL:DESKTOP-36NQ0HB-318D484D44D5286823A02493A1A95196 platform: NULL
-[2019.01.02-06.47.28:344][260]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_Menu_Map, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
-[2019.01.02-06.47.28:345][260]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_Menu_Map?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
-[2019.01.02-06.47.28:388][260]LogAIModule: Creating AISystem for world Menu_Map
-[2019.01.02-06.47.28:388][260]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.01.02-06.47.28:389][260]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Menu_Map.Menu_Map up for play (max tick rate 0) at 2019.01.02-07.47.28
-[2019.01.02-06.47.28:389][260]LogWorld: Bringing up level for play took: 0.000376
-[2019.01.02-06.47.28:390][260]LogLoad: Took 0.045307 seconds to LoadMap(/Game/Maps/UEDPIE_1_Menu_Map)
-[2019.01.02-06.47.28:405][261]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.01.02-06.47.28:406][261]LogNet: Client netspeed is 10000
-[2019.01.02-06.47.28:407][261]LogNet: Join request: /Game/Maps/Menu_Map?Name=DESKTOP-36NQ0HB-318D484D44D5286823A02493A1A95196?SplitscreenCount=1
-[2019.01.02-06.47.28:407][261]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2019.01.02-06.47.28:412][261]LogNet: Join succeeded: DESKTOP-36NQ0HB-318D
-[2019.01.02-06.47.28:443][262]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2019.01.02-06.47.28:487][264]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
-[2019.01.02-06.47.37:849][ 80]LogNet: Browse: /Game/Maps/Map1?listen
-[2019.01.02-06.47.37:849][ 80]LogLoad: LoadMap: /Game/Maps/Map1?listen
-[2019.01.02-06.47.37:849][ 80]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
-[2019.01.02-06.47.37:849][ 80]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
-[2019.01.02-06.47.37:849][ 80]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-318D484D44D5286823A02493A1A95196, Channels: 11, Time: 2019.01.02-06.47.37
-[2019.01.02-06.47.37:849][ 80]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-318D484D44D5286823A02493A1A95196
-[2019.01.02-06.47.37:850][ 80]LogExit: GameNetDriver IpNetDriver_1 shut down
-[2019.01.02-06.47.38:044][ 80]LogAIModule: Creating AISystem for world Map1
-[2019.01.02-06.47.38:045][ 80]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.01.02-06.47.38:045][ 80]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.01.02-06.47.38:045][ 80]LogTemp: Display: ParseSettings for IpNetDriver_2
-[2019.01.02-06.47.38:045][ 80]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.01.02-06.47.38:045][ 80]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
-[2019.01.02-06.47.38:045][ 80]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
-[2019.01.02-06.47.38:045][ 80]LogInit: WinSock: Socket queue 131072 / 131072
-[2019.01.02-06.47.38:046][ 80]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.01.02-06.47.38:046][ 80]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
-[2019.01.02-06.47.38:050][ 80]LogWorld: Bringing World /Game/Maps/UEDPIE_2_Map1.Map1 up for play (max tick rate 0) at 2019.01.02-07.47.38
-[2019.01.02-06.47.38:051][ 80]LogWorld: Bringing up level for play took: 0.003519
-[2019.01.02-06.47.38:056][ 80]LogLoad: Took 0.205711 seconds to LoadMap(/Game/Maps/Map1)
-[2019.01.02-06.47.38:074][ 81]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
-[2019.01.02-06.47.38:074][ 81]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55980, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-318D484D44D5286823A02493A1A95196
-[2019.01.02-06.47.38:074][ 81]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55980, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-318D484D44D5286823A02493A1A95196, Channels: 11, Time: 2019.01.02-06.47.38
-[2019.01.02-06.47.38:074][ 81]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55980, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-318D484D44D5286823A02493A1A95196
-[2019.01.02-06.47.38:075][ 81]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
-[2019.01.02-06.47.41:292][386]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.02-06.47.51:316][463]LogScript: Script Msg: Found a session. Ping is 9
-[2019.01.02-06.47.51:317][463]PIE: Error: The widget 'Serverchild_WB_C' already has a parent widget.  It can't also be added to the viewport!
-[2019.01.02-06.47.55:576][920]LogOnlineSession: OSS: Join session: traveling to 192.168.0.43:7777
-[2019.01.02-06.47.55:577][920]LogNet: Browse: 192.168.0.43//Game/Maps/Menu_Map
-[2019.01.02-06.47.55:577][920]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2019.01.02-06.47.55:577][920]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2019.01.02-06.47.55:577][920]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2019.01.02-06.47.55:577][920]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.01.02-06.47.55:578][920]LogTemp: Display: ParseSettings for IpNetDriver_3
-[2019.01.02-06.47.55:578][920]LogTemp: Display: ParseSettings for PendingNetDriver
-[2019.01.02-06.47.55:578][920]LogInit: WinSock: Socket queue 32768 / 32768
-[2019.01.02-06.47.55:579][920]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.01.02-06.47.55:579][920]LogNet: Game client on port 7777, rate 10000
-[2019.01.02-06.47.55:580][920]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2019.01.02-06.47.55:580][920]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.43:49931
-[2019.01.02-06.47.55:580][920]LogHandshake: SendConnectChallenge. Timestamp: 17.729235, Cookie: 070026172177176136242171224214186148141126144207184075228211
-[2019.01.02-06.47.55:587][921]LogHandshake: SendChallengeResponse. Timestamp: 17.729235, Cookie: 070026172177176136242171224214186148141126144207184075228211
-[2019.01.02-06.47.55:588][921]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2019.01.02-06.47.55:589][921]LogNet: NotifyAcceptingConnection accepted from: 192.168.0.43:49931
-[2019.01.02-06.47.55:589][921]LogHandshake: SendChallengeAck. InCookie: 070026172177176136242171224214186148141126144207184075228211
-[2019.01.02-06.47.55:589][921]LogNet: Server accepting post-challenge connection from: 192.168.0.43:49931
-[2019.01.02-06.47.55:589][921]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2019.01.02-06.47.55:589][921]LogNet: NotifyAcceptedConnection: Name: Map1, TimeStamp: 01/02/19 07:47:55, [UNetConnection] RemoteAddr: 192.168.0.43:49931, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.01.02-06.47.55:590][921]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.0.43:49931, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.01.02-06.47.55:599][922]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 192.168.0.43:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
-[2019.01.02-06.47.55:600][922]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2019.01.02-06.47.55:600][922]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_2_Map1.Map1: Accepted
-[2019.01.02-06.47.55:600][922]LogNet: Remote platform little endian=1
-[2019.01.02-06.47.55:600][922]LogNet: This platform little endian=1
-[2019.01.02-06.47.55:608][923]LogWorld: Warning: SetActiveLevelCollection attempted to use an out of date NetDriver: GameNetDriver
-[2019.01.02-06.47.55:608][923]LogNet: Login request: /Game/Maps/Menu_Map?Name=DESKTOP-36NQ0HB-4A791A374CE16E39F9F29DB5AB23B2EB userId: NULL:DESKTOP-36NQ0HB-4A791A374CE16E39F9F29DB5AB23B2EB platform: NULL
-[2019.01.02-06.47.55:615][924]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_2_Map1, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
-[2019.01.02-06.47.55:616][924]LogLoad: LoadMap: 192.168.0.43//Game/Maps/UEDPIE_2_Map1?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
-[2019.01.02-06.47.55:681][924]LogAIModule: Creating AISystem for world Map1
-[2019.01.02-06.47.55:681][924]LogTemp: Display: ParseSettings for GameNetDriver
-[2019.01.02-06.47.55:684][924]LogWorld: Bringing World /Game/Maps/UEDPIE_1_Map1.Map1 up for play (max tick rate 0) at 2019.01.02-07.47.55
-[2019.01.02-06.47.55:684][924]LogWorld: Bringing up level for play took: 0.001839
-[2019.01.02-06.47.55:684][924]LogLoad: Took 0.068274 seconds to LoadMap(/Game/Maps/UEDPIE_2_Map1)
-[2019.01.02-06.47.55:685][924]LogNet: Client netspeed is 10000
-[2019.01.02-06.47.55:685][924]LogNet: Join request: /Game/Maps/Menu_Map?Name=DESKTOP-36NQ0HB-4A791A374CE16E39F9F29DB5AB23B2EB?SplitscreenCount=1
-[2019.01.02-06.47.55:688][924]LogNet: Join succeeded: DESKTOP-36NQ0HB-4A79
-[2019.01.02-06.47.57:852][132]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.02-06.47.58:778][193]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.02-06.48.07:158][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.02-06.48.26:030][705]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
-[2019.01.02-06.48.26:030][705]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
-[2019.01.02-06.48.26:030][705]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.0.43:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-4A791A374CE16E39F9F29DB5AB23B2EB, Channels: 11, Time: 2019.01.02-06.48.26
-[2019.01.02-06.48.26:030][705]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.43:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-4A791A374CE16E39F9F29DB5AB23B2EB
-[2019.01.02-06.48.26:030][705]LogExit: GameNetDriver IpNetDriver_3 shut down
-[2019.01.02-06.48.26:030][705]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel.Menu_Map' with GeneratedClass '/Game/Maps/Menu_Map.Menu_Map_C' with ClassGeneratedBy '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel.Menu_Map'
-[2019.01.02-06.48.26:046][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.02-06.48.26:060][705]LogSlate: Window 'Pralind Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
-[2019.01.02-06.48.26:096][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.02-06.48.26:130][705]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.02-06.48.26:131][705]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel.Menu_Map' with GeneratedClass '/Game/Maps/Menu_Map.Menu_Map_C' with ClassGeneratedBy '/Game/Maps/Menu_Map.Menu_Map:PersistentLevel.Menu_Map'
-[2019.01.02-06.48.26:163][705]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.43:49931, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-4A791A374CE16E39F9F29DB5AB23B2EB
-[2019.01.02-06.48.26:163][705]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.0.43:49931, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-4A791A374CE16E39F9F29DB5AB23B2EB, Channels: 11, Time: 2019.01.02-06.48.26
-[2019.01.02-06.48.26:163][705]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.0.43:49931, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-36NQ0HB-4A791A374CE16E39F9F29DB5AB23B2EB
-[2019.01.02-06.48.26:167][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.02-06.48.26:168][705]LogExit: GameNetDriver None shut down
-[2019.01.02-06.48.26:213][706]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.01.02-06.48.26:213][706]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.01.02-06.48.30:314][172]LogSlate: Window 'Message Log' being destroyed
-[2019.01.02-06.48.30:320][172]LogSlate: Window 'Message Log' being destroyed
-[2019.01.02-06.49.41:152][316]BlueprintLog: New page: Compile PlayerChar
-[2019.01.02-06.49.41:912][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset" SILENT=true
-[2019.01.02-06.49.41:980][368]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/PlayerCharF77F2F39468AAF75330D1DB874266F2F.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset'
-[2019.01.02-06.49.46:187][810]LogSlate: Window 'Pralind - Unreal Editor' being destroyed
-[2019.01.02-06.49.46:360][811]Cmd: QUIT_EDITOR
-[2019.01.02-06.49.47:212][811]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.02-06.49.47:222][811]LogExit: Preparing to exit.
-[2019.01.02-06.49.47:981][811]LogExit: Editor shut down
-[2019.01.02-06.49.47:981][811]LogExit: Transaction tracking system shut down
-[2019.01.02-06.49.48:787][811]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Users/nkm/Documents/GitHub/Pralind/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
-[2019.01.02-06.49.48:788][811]LogFileManager: Warning: DeleteFile recovered during retry!
-[2019.01.02-06.49.48:788][811]LogExit: Object subsystem successfully closed.
-[2019.01.02-06.49.48:813][811]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.01.02-06.49.48:818][811]LogD3D11RHI: Shutdown
-[2019.01.02-06.49.48:818][811]LogD3D11RHI: CleanupD3DDevice
-[2019.01.02-06.49.48:820][811]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.01.02-06.49.48:838][811]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (642)
-[2019.01.02-06.49.48:838][811]LogModuleManager: Shutting down and abandoning module Voice (640)
-[2019.01.02-06.49.48:838][811]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (638)
-[2019.01.02-06.49.48:838][811]LogModuleManager: Shutting down and abandoning module BlueprintGraph (636)
-[2019.01.02-06.49.48:838][811]LogModuleManager: Shutting down and abandoning module PinnedCommandList (634)
-[2019.01.02-06.49.48:838][811]LogModuleManager: Shutting down and abandoning module SkeletonEditor (632)
-[2019.01.02-06.49.48:838][811]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (630)
-[2019.01.02-06.49.48:838][811]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (628)
-[2019.01.02-06.49.48:839][811]LogModuleManager: Shutting down and abandoning module SceneOutliner (626)
-[2019.01.02-06.49.48:839][811]LogModuleManager: Shutting down and abandoning module AddContentDialog (624)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module WidgetCarousel (623)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module EditorWidgets (620)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module CollectionManager (618)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module StatsViewer (616)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module FoliageEdit (614)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module LandscapeEditor (612)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module MeshPaintMode (610)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (608)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module ActorPickerMode (606)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module GeometryMode (604)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module TextureAlignMode (602)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module BspMode (600)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (598)
-[2019.01.02-06.49.48:840][811]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (596)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module AutomationWorker (594)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (592)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (590)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (588)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module PlacementMode (587)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module MaterialEditor (586)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (582)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (580)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (578)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (576)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module WebMMedia (574)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (572)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (570)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module SequenceRecorder (569)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (566)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (564)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (562)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (560)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (558)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (556)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (554)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (552)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (550)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (548)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module CharacterAI (546)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module SmartSnapping (544)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module SessionServices (542)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module ViewportSnapping (540)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module ViewportInteraction (538)
-[2019.01.02-06.49.48:841][811]LogModuleManager: Shutting down and abandoning module ClothPainter (536)
-[2019.01.02-06.49.48:842][811]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (535)
-[2019.01.02-06.49.48:842][811]LogModuleManager: Shutting down and abandoning module LogVisualizer (532)
-[2019.01.02-06.49.48:842][811]LogModuleManager: Shutting down and abandoning module IntroTutorials (530)
-[2019.01.02-06.49.48:842][811]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (529)
-[2019.01.02-06.49.48:842][811]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (526)
-[2019.01.02-06.49.48:842][811]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (524)
-[2019.01.02-06.49.48:842][811]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (522)
-[2019.01.02-06.49.48:842][811]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (520)
-[2019.01.02-06.49.48:842][811]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (519)
-[2019.01.02-06.49.49:509][811]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (516)
-[2019.01.02-06.49.49:509][811]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (514)
-[2019.01.02-06.49.49:509][811]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (512)
-[2019.01.02-06.49.49:509][811]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (510)
-[2019.01.02-06.49.49:509][811]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (508)
-[2019.01.02-06.49.49:509][811]LogModuleManager: Shutting down and abandoning module InputBindingEditor (506)
-[2019.01.02-06.49.49:509][811]LogModuleManager: Shutting down and abandoning module MergeActors (504)
-[2019.01.02-06.49.49:509][811]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (502)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module LocalizationService (501)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module HardwareTargeting (498)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (496)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module UndoHistory (494)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module XmlParser (492)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module Blutility (490)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (488)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (487)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (484)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module SettingsEditor (482)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module ProjectLauncher (480)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module SessionFrontend (478)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module ProfilerClient (476)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module DeviceManager (474)
-[2019.01.02-06.49.49:510][811]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (473)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module AutomationController (470)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module AutomationWindow (468)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module Layers (466)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (464)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module DetailCustomizations (462)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module PackagesDialog (460)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module Persona (458)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (457)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module AnimGraph (455)
-[2019.01.02-06.49.49:565][811]LogModuleManager: Shutting down and abandoning module Kismet (452)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module GraphEditor (450)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module ClassViewer (448)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module Toolbox (446)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module ModuleUI (444)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module MovieSceneTools (442)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module OutputLog (440)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module GammaUI (438)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module Documentation (436)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module MovieScene (432)
-[2019.01.02-06.49.49:570][811]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module PortalServices (424)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module AIModule (418)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module DesktopPlatform (410)
-[2019.01.02-06.49.49:571][811]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (408)
-[2019.01.02-06.49.49:573][811]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
-[2019.01.02-06.49.49:612][811]LogModuleManager: Shutting down and abandoning module TaskGraph (404)
-[2019.01.02-06.49.49:612][811]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
-[2019.01.02-06.49.49:612][811]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
-[2019.01.02-06.49.49:612][811]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
-[2019.01.02-06.49.49:612][811]LogModuleManager: Shutting down and abandoning module OculusInput (396)
-[2019.01.02-06.49.49:612][811]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
-[2019.01.02-06.49.49:612][811]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module CableComponent (388)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
-[2019.01.02-06.49.49:613][811]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module HTML5Networking (370)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (368)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (366)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module BackChannel (364)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module AppleVision (362)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (360)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module AppleImageUtils (358)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module AlembicImporter (356)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module AlembicLibrary (355)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module VariantManagerContent (348)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (344)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module PluginBrowser (342)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (340)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module PolygonModeling (338)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module MeshEditor (336)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (334)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module CryptoKeys (332)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (330)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (328)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module UObjectPlugin (326)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (324)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (322)
-[2019.01.02-06.49.49:616][811]LogModuleManager: Shutting down and abandoning module GitSourceControl (320)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module SourceControl (319)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (316)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (314)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (312)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module ActorSequence (290)
-[2019.01.02-06.49.49:617][811]LogModuleManager: Shutting down and abandoning module UdpMessaging (288)
-[2019.01.02-06.49.49:718][811]LogModuleManager: Shutting down and abandoning module TcpMessaging (286)
-[2019.01.02-06.49.49:819][811]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (284)
-[2019.01.02-06.49.49:819][811]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (282)
-[2019.01.02-06.49.49:819][811]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (280)
-[2019.01.02-06.49.49:819][811]LogModuleManager: Shutting down and abandoning module FacialAnimation (278)
-[2019.01.02-06.49.49:819][811]LogModuleManager: Shutting down and abandoning module DataValidation (276)
-[2019.01.02-06.49.49:819][811]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (274)
-[2019.01.02-06.49.49:819][811]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
-[2019.01.02-06.49.49:819][811]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
-[2019.01.02-06.49.49:820][811]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (270)
-[2019.01.02-06.49.49:820][811]LogModuleManager: Shutting down and abandoning module MainFrame (268)
-[2019.01.02-06.49.49:820][811]LogModuleManager: Shutting down and abandoning module HotReload (267)
-[2019.01.02-06.49.49:820][811]LogModuleManager: Shutting down and abandoning module ContentBrowser (263)
-[2019.01.02-06.49.49:821][811]LogModuleManager: Shutting down and abandoning module TreeMap (261)
-[2019.01.02-06.49.49:821][811]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (258)
-[2019.01.02-06.49.49:821][811]LogModuleManager: Shutting down and abandoning module AISupportModule (256)
-[2019.01.02-06.49.49:821][811]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (254)
-[2019.01.02-06.49.49:821][811]LogModuleManager: Shutting down and abandoning module AdvancedSessions (252)
-[2019.01.02-06.49.49:821][811]LogModuleManager: Shutting down and abandoning module Paper2D (250)
-[2019.01.02-06.49.49:821][811]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
-[2019.01.02-06.49.49:821][811]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
-[2019.01.02-06.49.49:821][811]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2019.01.02-06.49.49:823][811]LogModuleManager: Shutting down and abandoning module Media (243)
-[2019.01.02-06.49.49:829][811]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2019.01.02-06.49.49:829][811]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2019.01.02-06.49.49:829][811]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2019.01.02-06.49.49:829][811]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2019.01.02-06.49.49:830][811]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module Core (188)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2019.01.02-06.49.49:832][811]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2019.01.02-06.49.49:843][811]LogDerivedDataCache: Shutdown
-[2019.01.02-06.49.49:843][811]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2019.01.02-06.49.49:843][811]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2019.01.02-06.49.49:843][811]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2019.01.02-06.49.49:843][811]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2019.01.02-06.49.49:843][811]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2019.01.02-06.49.49:843][811]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2019.01.02-06.49.49:844][811]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2019.01.02-06.49.49:845][811]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2019.01.02-06.49.49:845][811]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2019.01.02-06.49.49:845][811]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2019.01.02-06.49.49:845][811]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2019.01.02-06.49.49:845][811]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2019.01.02-06.49.49:845][811]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2019.01.02-06.49.49:846][811]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2019.01.02-06.49.49:846][811]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2019.01.02-06.49.49:846][811]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.01.02-06.49.49:852][811]LogHMD: Freeing OpenVRDLLHandle.
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.01.02-06.49.49:852][811]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.01.02-06.49.49:853][811]LogModuleManager: Shutting down and abandoning module XMPP (63)
-[2019.01.02-06.49.49:853][811]LogModuleManager: Shutting down and abandoning module WebSockets (62)
-[2019.01.02-06.49.49:867][811]LogModuleManager: Shutting down and abandoning module HTTP (59)
-[2019.01.02-06.49.49:867][811]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.01.02-06.49.49:867][811]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDE877515-4A99-263B-1A15-3DBB0CEB18F2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=cea1e19c411d20f2d957158ac52c80b8%7C41351841736b4337b47b91379774d499%7C9d1b5b11-0f09-4586-a44b-51716621a167&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.01.02-06.49.49:896][811]LogModuleManager: Shutting down and abandoning module SSL (58)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
-[2019.01.02-06.49.49:898][811]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.01.02-06.49.49:898][811]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.01.02-06.49.49:899][811]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.01.02-06.49.49:899][811]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.01.02-06.49.49:899][811]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.01.02-06.49.49:899][811]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.01.02-06.49.49:899][811]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.01.02-06.49.49:899][811]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.01.02-06.49.49:899][811]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.01.02-06.49.49:899][811]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.01.02-06.49.49:900][811]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.01.02-06.49.49:900][811]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.01.02-06.49.49:900][811]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.01.02-06.49.49:900][811]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.01.02-06.49.49:900][811]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.01.02-06.49.49:900][811]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.01.02-06.49.49:900][811]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.01.02-06.49.49:905][811]LogExit: Exiting.
-[2019.01.02-06.49.49:923][811]Log file closed, 01/02/19 07:49:49
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
+[2019.01.02-19.13.21:956][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.02-19.13.21:956][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.02-19.13.21:957][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
+[2019.01.02-19.13.21:957][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
+[2019.01.02-19.13.21:964][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.21:964][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.02-19.13.21:964][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.02-19.13.21:965][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.02-19.13.21:966][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.02-19.13.21:966][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.02-19.13.21:966][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.02-19.13.22:058][  0]LogHAL: Display: Platform has ~ 16 GB [17155100672 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.02-19.13.22:058][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.02-19.13.22:058][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.02-19.13.22:058][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.02-19.13.22:059][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.02-19.13.22:060][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.02-19.13.22:060][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Scalability.ini]
+[2019.01.02-19.13.22:060][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.02-19.13.22:060][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.02-19.13.22:060][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.02-19.13.22:060][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.02-19.13.22:060][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/nkm/Documents/GitHub/Pralind/Saved/Config/Windows/Engine.ini]
+[2019.01.02-19.13.22:060][  0]LogInit: Computer: DESKTOP-36NQ0HB
+[2019.01.02-19.13.22:060][  0]LogInit: User: nkm
+[2019.01.02-19.13.22:060][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.02-19.13.22:060][  0]LogInit: High frequency timer resolution =3.526095 MHz
+[2019.01.02-19.13.22:060][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.01.02-19.13.22:060][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.02-19.13.22:060][  0]LogMemory: Process Physical Memory: 102.90 MB used, 102.90 MB peak
+[2019.01.02-19.13.22:060][  0]LogMemory: Process Virtual Memory: 93.16 MB used, 93.16 MB peak
+[2019.01.02-19.13.22:060][  0]LogMemory: Physical Memory: 6436.93 MB used,  9923.45 MB free, 16360.38 MB total
+[2019.01.02-19.13.22:060][  0]LogMemory: Virtual Memory: 4640.91 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.01.02-19.13.22:095][  0]LogInit: Using OS detected language (en-US).
+[2019.01.02-19.13.22:096][  0]LogInit: Using OS detected locale (da-DK).
+[2019.01.02-19.13.22:097][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.02-19.13.22:651][  0]LogStreaming: Display: Took  0.555s to InitEngineTextLocalization.
+[2019.01.02-19.13.22:651][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.02-19.13.22:740][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.02-19.13.22:740][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.02-19.13.23:167][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.02-19.13.23:167][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.02-19.13.23:273][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.01.02-19.13.23:273][  0]LogD3D11RHI:       4018/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.02-19.13.23:278][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.02-19.13.23:278][  0]LogD3D11RHI:       0/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.02-19.13.23:278][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.02-19.13.23:290][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.02-19.13.23:290][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.02-19.13.23:290][  0]LogWindows: EnumDisplayDevices:
+[2019.01.02-19.13.23:291][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.01.02-19.13.23:291][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2019.01.02-19.13.23:292][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.01.02-19.13.23:293][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.01.02-19.13.23:293][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.02-19.13.23:293][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.01.02-19.13.23:293][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.01.02-19.13.23:293][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.01.02-19.13.23:293][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.01.02-19.13.23:358][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.02-19.13.23:378][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.02-19.13.23:887][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.02-19.13.23:903][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.02-19.13.23:921][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.02-19.13.23:938][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.02-19.13.23:954][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.02-19.13.23:970][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.02-19.13.23:987][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.02-19.13.24:002][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.02-19.13.24:011][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:113][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.02-19.13.24:116][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.02-19.13.24:182][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.02-19.13.24:182][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.02-19.13.24:215][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.02-19.13.24:215][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.02-19.13.24:231][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.02-19.13.24:247][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.02-19.13.24:264][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.02-19.13.24:281][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.02-19.13.24:338][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.02-19.13.24:338][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.02-19.13.24:338][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.02-19.13.24:409][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (C:/Users/nkm/Documents/GitHub/Pralind/Intermediate/Shaders/WorkingDirectory/2316/).
+[2019.01.02-19.13.24:409][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nkm/AppData/Local/Temp/UnrealShaderWorkingDir/243DECF34FDA424E692FDDA647AC37BF/'.
+[2019.01.02-19.13.24:412][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.02-19.13.24:412][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.02-19.13.24:412][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.02-19.13.25:125][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.02-19.13.25:222][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/nkm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.02-19.13.25:222][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nkm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.02-19.13.25:222][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/nkm/Documents/GitHub/Pralind/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.02-19.13.25:222][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.02-19.13.25:222][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/nkm/Documents/GitHub/Pralind/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.02-19.13.25:222][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.02-19.13.25:242][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.02-19.13.25:242][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.02-19.13.25:242][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.02-19.13.25:255][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.02-19.13.25:255][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.02-19.13.25:255][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.02-19.13.25:289][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.02-19.13.25:291][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.02-19.13.25:292][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.02-19.13.25:408][  0]LogAssetRegistry: FAssetRegistry took 0.0377 seconds to start up
+[2019.01.02-19.13.25:974][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.02-19.13.26:184][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.02-19.13.26:189][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.02-19.13.26:189][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.02-19.13.26:189][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.02-19.13.26:189][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.02-19.13.26:213][  0]LogNetVersion: Pralind 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 393044096)
+[2019.01.02-19.13.27:070][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.266793 seconds
+[2019.01.02-19.13.27:076][  0]LogUObjectArray: 39784 objects as part of root set at end of initial load.
+[2019.01.02-19.13.27:077][  0]LogUObjectAllocator: 6925456 out of 0 bytes used by permanent object pool.
+[2019.01.02-19.13.27:077][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.02-19.13.28:281][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.02-19.13.28:296][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.02-19.13.29:242][  0]SourceControl: Source control is disabled
+[2019.01.02-19.13.29:242][  0]SourceControl: Source control is disabled
+[2019.01.02-19.13.29:244][  0]SourceControl: Source control is disabled
+[2019.01.02-19.13.29:246][  0]SourceControl: Source control is disabled
+[2019.01.02-19.13.29:472][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.02-19.13.29:737][  0]LogOcInput: OculusInput pre-init called
+[2019.01.02-19.13.29:901][  0]LogEngine: Initializing Engine...
+[2019.01.02-19.13.29:902][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.02-19.13.29:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.02-19.13.29:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.02-19.13.29:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.02-19.13.29:904][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.02-19.13.30:239][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.02-19.13.30:258][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.02-19.13.30:327][  0]LogInit: XAudio2 using 'Speakers (Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.02-19.13.30:342][  0]LogInit: FAudioDevice initialized.
+[2019.01.02-19.13.30:343][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.02-19.13.30:503][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/nkm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.02-19.13.30:529][  0]LogInit: Texture streaming: Enabled
+[2019.01.02-19.13.30:571][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.02-19.13.30:623][  0]LogInit: Transaction tracking system initialized
+[2019.01.02-19.13.30:653][  0]BlueprintLog: New page: Editor Load
+[2019.01.02-19.13.30:743][  0]LocalizationService: Localization service is disabled
+[2019.01.02-19.13.31:523][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.02-19.13.31:523][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.02-19.13.31:523][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.02-19.13.31:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.02-19.13.31:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.02-19.13.31:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.02-19.13.31:523][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.02-19.13.31:673][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nkm/Documents/GitHub/Pralind/Content/' took 0.05s
+[2019.01.02-19.13.31:673][  0]SourceControl: Source control is disabled
+[2019.01.02-19.13.31:673][  0]Cmd: MAP LOAD FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Maps/Menu_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.02-19.13.31:697][  0]LightingResults: New page: Lighting Build
+[2019.01.02-19.13.31:700][  0]MapCheck: New page: Map Check
+[2019.01.02-19.13.31:700][  0]LightingResults: New page: Lighting Build
+[2019.01.02-19.13.32:439][  0]LogAIModule: Creating AISystem for world Menu_Map
+[2019.01.02-19.13.32:440][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.02-19.13.32:465][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.02-19.13.32:465][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,244ms to complete.
+[2019.01.02-19.13.32:465][  0]LogFileHelpers: Loading map 'Menu_Map' took 0.791
+[2019.01.02-19.13.33:170][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.02-19.13.33:183][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.02-19.13.33:193][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.02-19.13.33:203][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.02-19.13.33:289][  0]LogCollectionManager: Loaded 0 collections in 0.002333 seconds
+[2019.01.02-19.13.33:416][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/Collections/' took 0.01s
+[2019.01.02-19.13.33:416][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Developers/nkm/Collections/' took 0.00s
+[2019.01.02-19.13.33:416][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Collections/' took 0.00s
+[2019.01.02-19.13.33:416][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.02-19.13.33:433][  0]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2677 classes and 630 folders.
+[2019.01.02-19.13.33:477][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.02-19.13.33:566][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:602][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:604][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:663][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:706][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:750][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:758][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:760][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:762][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:792][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:801][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:810][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:825][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:827][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:844][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:854][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:863][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.33:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.02-19.13.34:617][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.02-19.13.34:713][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.02-19.13.35:101][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.02-19.13.35:105][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.02-19.13.35:163][  0]LogSlate: Took 0.009314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.02-19.13.35:783][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.02-19.13.36:323][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.02-19.13.36:323][  0]LogLoad: (Engine Initialization) Total time: 20.57 seconds
+[2019.01.02-19.13.36:323][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.02-19.13.36:335][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.02-19.13.36:438][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.02-19.13.36:546][  0]LogSlate: Took 0.013331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.02-19.13.36:705][  3]LogAssetRegistry: Asset discovery search completed in 11.3192 seconds
+[2019.01.02-19.13.36:733][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.02-19.13.36:733][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2019.01.02-19.14.34:715][177]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.02-19.14.36:362][253]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.02-19.14.36:372][253]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/PlayerChar.PlayerChar
+[2019.01.02-19.14.37:488][253]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 117 classes and 0 folders.
+[2019.01.02-19.14.39:760][253]LogSlate: Took 0.026681 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.02-19.14.40:396][254]LogSlate: Took 0.001494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.02-19.15.12:131][824]BlueprintLog: New page: Compile PlayerChar
+[2019.01.02-19.15.14:376][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2019.01.02-19.15.14:550][ 30]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/PlayerChar115E485040D063E6C51ED88D34594A69.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset'
+[2019.01.02-19.17.05:056][927]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  UpdateHeadRotation_SERVER  and was replaced as a Custom Event!
+[2019.01.02-19.17.35:459][963]BlueprintLog: New page: Compile PlayerChar
+[2019.01.02-19.17.36:200][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2019.01.02-19.17.36:268][  7]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/PlayerChar32208EEB40232D146C13A188BEAE10C7.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset'
+[2019.01.02-19.17.48:586][994]BlueprintLog: New page: Compile PlayerChar
+[2019.01.02-19.17.49:292][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2019.01.02-19.17.49:367][ 35]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/PlayerCharA551F0A9464ECA9DC52B93B9C5ECB485.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset'
+[2019.01.02-19.18.28:589][553]BlueprintLog: New page: Compile PlayerChar
+[2019.01.02-19.18.29:887][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2019.01.02-19.18.29:956][662]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/PlayerChar80A0F96F4DA206FDA7ECDB92A8D91EC3.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset'
+[2019.01.02-19.18.51:299][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerChar" FILE="C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset" SILENT=true
+[2019.01.02-19.18.51:360][ 30]LogSavePackage: Moving 'C:/Users/nkm/Documents/GitHub/Pralind/Saved/PlayerCharFD4C7F214EBDEDC09BBA119A83D74528.tmp' to 'C:/Users/nkm/Documents/GitHub/Pralind/Content/Blueprints/PlayerChar.uasset'
